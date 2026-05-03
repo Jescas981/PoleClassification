@@ -1,0 +1,36 @@
+# -------------------------
+# Python cache
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+
+# -------------------------
+# Outputs / artifacts
+# -------------------------
+labels.txt
+
+# -------------------------
+# Dataset (usually NOT versioned)
+# -------------------------
+ply_folder/
+data/
+*.ply
+*.pcd
+*.bin
+
+
+# -------------------------
+# Torch / training artifacts
+# -------------------------
+checkpoints/
+models/
+*.ckpt
